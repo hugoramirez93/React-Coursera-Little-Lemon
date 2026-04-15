@@ -1,9 +1,10 @@
-import logo from "./assets/Logo.png";
+import logo from "../assets/logo.png";
 
 function Header() {
 	return (
 		<header>
 			<img src={logo} alt="Little Lemon Logo" />
+			<h1>Little Lemon</h1>
 		</header>
 	);
 }
